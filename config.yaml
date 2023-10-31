@@ -1,0 +1,270 @@
+baseURL: "https://rohanpatankar.netlify.app/"
+languageCode: "en-us"
+title: "Prajwal Krishna | Portfolio"
+theme: "./.."
+relativeURLs: true
+
+googleanalytics: UA-xxxxxx-x
+disqusShortname:
+Paginate: 3
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+  
+enableEmoji: true
+params:
+  version: 3
+  customCSS: false
+
+  favicon: https://cdn2.iconfinder.com/data/icons/inclusiveness-vivid-vol-2/256/Scientist-male-512.png
+  description: "Prajwal's personal portfolio"
+
+  # Navbar Menus
+  
+
+  # home
+  disable_home: false
+  profile_image: /images/profile.png
+  name: "Prajwal Krishna"
+  namecolor: ffc107
+  profession: "An aspiring Data Scientist"
+  github: "https://github.com/praj2408"
+  linkedin: "https://www.linkedin.com/in/prajwalkrishna/"
+  twitter: "https://twitter.com/mrpark2408"
+  gmail: "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=prajwalgbdr03@gmail.com"
+  
+
+  # Custom social links
+  customSocialLinks:
+    - fontAwesomeIconName: "fa fa-envelope"
+      url: "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=prajwalgbdr03@gmail.com"
+    # - fontAwesomeIconName: "fa fa-envelope"
+    #   url: "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=prajwalgbdr03@gmail.com"
+
+  # About
+  disable_about: false  
+  descripe_l1_person: "Hii there! Myself **Prajwal Krishna** and As an MLOps specialist,Expert ML/DL Engineer and MLOps Specialist: Leveraging Advanced Technologies for Optimal Results. With a deep passion for Machine Learning (ML), Deep Learning (DL), and MLOps, I am an accomplished engineer skilled in harnessing the power of modern web technologies to build exceptional websites. My expertise extends beyond aesthetics and functionality; I have a comprehensive understanding of ML and DL algorithms, frameworks, and techniques that enable me to create intelligent systems capable of analyzing vast amounts of data and delivering accurate predictions."
+  descripe_l2_person: "### Real world capabilities"
+  descripe_l3_person: "I excel in designing and implementing robust ML infrastructure and automation pipelines. I leverage state-of-the-art tools and frameworks such as Docker, Kubernetes,git actions,Huggingface models,replicate models etc to optimize workflows, ensuring scalability and reproducibility of ML processes. My ability to seamlessly integrate ML solutions into existing systems empowers organizations to embrace the full potential of their data, gaining a competitive edge in today's rapidly evolving market.If you are seeking a skilled ML/DL engineer and MLOps expert who can deliver exceptional results, I am confident in my ability to drive your organization's success through innovative technologies and data-driven solutions. Let's collaborate and unlock the power of ML and DL for your business"
+  descripe_l4_person: "*You can find my works [here](#projects)* "
+
+  skills:
+    - name: Python3
+      percentage: 80
+    - name: Machine Learning
+      percentage: 80
+    - name: Deep Learning
+      percentage: 70
+    - name: Natural Language Processing
+      percentage: 65
+    - name: Computer Vision
+      percentage: 70
+    - name: Flask 
+      percentage: 65
+    - name: "HTML, CSS, Streamlit, Hugo framework, Gradio"
+      percentage: 80
+    - name: SQL
+      percentage: 80
+    - name: MongoDB
+      percentage: 70
+    - name: ML-Operations
+      percentage: 70
+    - name: CI/CD pipelines
+      percentage: 70
+    - name: Dockers
+      percentage: 80
+    - name: Cloud Deployment Automation
+      percentage: 70
+
+  # Experience
+  disable_experience: false
+  experience:
+    - company: "Tarang.ai(MLx)"
+      role: "Lead MLops engineer"
+      startdate: "April 19 2023"
+      enddate: "Ongoing"
+      featuredpoints:
+        - point: "As the Lead MLops Engineer at Tarang.ai(MLx) since April 19, 2023, I have been at the forefront of system development, focusing on building state-of-the-art (SOTA) ML pipelines.My expertise spans a wide range of areas, including working extensively with LLM models such as GPT and BERT models, implementing stable diffusion models, and ensuring seamless deployment of ML systems. , I am dedicated to driving innovation, operational excellence, and tangible business outcomes through ML and DL engineering coupled with MLOps practices."
+
+    - company: "Synapsica-Healthcare"
+      role: "Software Engineer(AI) intern"
+      startdate: "October 04 2022"
+      enddate: "April 18 2023"
+      featuredpoints:
+        - point: "Currently working on system development with MLops to build SOTA ML pipelines.."
+    - company: "Valuecom-Infosolutions-pvt-ltd"
+      role: "Software Developer Intern"
+      startdate: "April 07 2022"
+      enddate: "July 07 2022"
+      featuredpoints:
+        - point:  "Built the automated python script which is used to send a particular data from database and integrated it to a frontend where all operations can be made easily"
+
+    - company: "iNeuron"
+      # id: "google-developer"   // use this, when you want to change the id(used for navigation)
+      role: "Project Intern"
+      startdate: "Jan 18 2022"
+      enddate: "April 16 2022"
+      featuredpoints:
+        - point: "Solve an usecase on Industry level end to end machine learning project"
+        - point: "ML project domain was with respect to Insurance"
+        - point: "Used MLOPS(DVC pipeline) for building and deploying the model."
+        - point: "Built CI/CD pipeline"
+        - point: "Used Flask Api as a backend"
+        - point: "Used Github actions for automatic build and deploy of the model"
+        - point: "Finally hosted to cloud environment i chose heroku platform."
+    - company: "PantechSolutions"
+      # id: "google-developer"   // use this, when you want to change the id(used for navigation)
+      role: "Machine Learning Intern(trainee)"
+      startdate: "Sep 2021"
+      enddate: "Oct 2021"
+      featuredpoints:
+        - point: "Learn ML & DL from Scratch"
+        - point: "Learnt to build neural networks using ANN,CNN,RNN,LSTM etc"
+        - point: "Build numerous types of projects by using different ML and DL algorithms"
+    - company: "AzureSkynets_Pvt-Ltd"
+      # id: "AzureSkynets Pvt Ltd" // use this, when you want to change the id(used for navigation)
+      role: "Python Programming Internship(trainee)"
+      startdate: Jan 2020
+      enddate: Feb 2020
+      featuredpoints:
+        - point: "Learnt python programming from basics to classes,objects,OOPS"
+        - point: "Learnt libraries like numpy,pandas,matplotlib,seaborn,plotly."
+        - point: "Built projects like ML-preprocessor with CLI,Email Slicer and so on"
+  
+  #certifications section
+  disable_certification: false
+  certification:
+    - Name: ML-DL-Masters-Course
+      institution: iNeuron.ai
+      startdate: "Jul 2023"
+      enddate: "Jul 2024"
+      link:
+        - weblink: "#"
+          certificate: "View Certificate"
+    
+    - Name: Tensorflow-Developer-Certificate
+      institution: Deeplearning.ai
+      startdate: "May 2022"
+      enddate: "June 2022"
+      link:
+        - weblink: https://coursera.org/share/0f09d9063954f753d2601979bbfc00d6
+          certificate: "View Certificate"
+
+    - Name: Deep-Learning-Specialization
+      institution: DeepLearning.ai
+      startdate: "February 2022"
+      enddate: "March 2022"
+      link:
+        - weblink: "https://coursera.org/share/da51ea305a8115d36d8fc1288c9b9eed"
+          certificate: "View Certificate"
+
+    - Name: Machine-Learning-Specialization
+      institution: DeepLearning.ai
+      startdate: "January 27 2022"
+      enddate: "February 5 2022"
+      link:
+        - weblink: "https://coursera.org/share/18096ff70265b4bc393ef2aa125a7325"
+          certificate: "View Certificate"
+
+    - Name: Mathematics-for-Machine-Learning-and-Data-Science
+      institution: DeepLearning.ai
+      startdate: "October 2021"
+      enddate: "November 2021"
+      link:
+        - weblink: "https://coursera.org/share/da51ea305a8115d36d8fc1288c9b9eed"
+          certificate: "View Certificate"
+
+      
+  # Education
+  disable_education: false
+  education:
+    - degree: "Full Stack Data Science Masters"
+      branch: ""
+      university: "iNeuron Intelligence, Bangalore, India"
+     
+      startedyear: "2023"
+      graduation: "2024"
+    
+    - degree: "Bachelor of Science in "
+      branch: "Aviation"
+      university: "Singhania University"
+      startedyear: "2019"
+      graduation: "2022"
+    
+    - degree: "Class XII-"
+      university: "SSEA Pre University College"
+      startedyear: "2018"
+      graduation: "2019"
+
+  # Projects
+  disable_projects: false
+  projects:
+    - name: "Airline Passenger Satisfaction Prediction "
+      img: /images/Happy-passenger.jpg
+      githublink: "https://github.com/praj2408/Airline-Passenger-Satisfaction-ML-Project"
+      featuredlink: ""
+      description: "Following the pandemic, the airline industry suffered a massive setback, with ICAO estimating a 371 billion dollar loss in 2020, and a 329 billion dollar loss with reduced seat capacity. As a result, in order to revitalise the industry in the face of the current recession, it is absolutely necessary to understand the customer pain points and improve their satisfaction with the services provided."
+    
+    
+    - name: "LangChain Powered PDF Chat GUI"
+      img: /images/langchain.png
+      githublink: "https://github.com/praj2408/Langchain-PDF-App-GUI"
+      #featuredlink: "https://datasummarizer.herokuapp.com/"
+      description: "The project aims to develop a PDF querying system that leverages LangChain, a powerful language processing tool, to extract information from PDF documents. By employing LangChain's advanced natural language understanding capabilities, the system will enable users to perform complex searches and obtain specific data points from PDF files efficiently and accurately."
+    
+    - name: "Consignment Pricing Prediction MLOPS"
+      img: /images/consignment.jpg
+      githublink: "https://github.com/rohanpatankar926/Consignment-Pricing-Using-Mlops-DVC"
+      featuredlink: "https://consignmentpricing.herokuapp.com/"
+      description: "Designed and built an end-to-end scalable machine learning pipeline using Mlops in which i have integrated everything on a frontend so that user can get log file,artifacts,model binary file and also save the data to the database which can help for future retraining and also you can perform complete retraining of the model by just one click.The main aim is to build an entire system of a machine learning so that it can be used in realworld scenario."
+    
+    
+    
+    - name: "Insurance Premium Prediction using Mlops"
+      img: /images/insurance.png
+      githublink: "https://github.com/praj2408/Insurance-Premium-Prediction-using-MLops-DVC"
+      featuredlink: "https://insurance-premium-price-prediction.onrender.com/"
+      description: "The End-goal of this project is to give people an estimate of how much they need based on their individual health situation.So here I have implemented End-End Machine Learning project using MLOPS lifecycle.Built CI/CD pipeline.DVC(Data Version Control) was used here for track ml model.It was regression problem statement and in order to get best accuracy I have used GradientBoostingRegressor to solve the problem which gave r2_score of 85% after tuning parameters."
+    
+    
+    - name: "Automated Machine Learning Application"
+      img: /images/automated.jpg
+      githublink: "https://github.com/praj2408/Automated-Machine-Learning-App"
+      #featuredlink: ""
+      description: "The Automated ML WebApp project is a tool developed using Python, Pandas Profiling, PyCaret, and Streamlit frameworks. It aims to simplify and streamline the process of building machine learning models by automating various tasks involved in data preprocessing, feature engineering, model selection, and downloading the trained models."
+  # services
+  disable_achievements: false
+  
+  
+  achievements:
+    
+    - title: "ML Pipelines"
+      description: "Building Machine Learning Pipelines using ML framework"
+      img: /images/Website-Design-new.jpg
+    
+    - title: Data Analysis
+      description: "With the help of tableu or python analyze the data of the business or client needs which help them to solve business problems."
+      img: /images/da.jpg
+      # url: https://example.com
+    
+    - title: Machine Learning & Deep Learning
+      description: "Build various types of ML and DL models according to business or client needs in which it helps to solve complex business issues." 
+      img: /images/ml.png
+    
+  # Contact
+  disable_contact: false
+  contact_content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you! 
+  email: "prajwalgbdr03@mail.com"
+
+  # Footer
+  socialiconfooter: true
+  recentposts: true
+
+  # Blog
+  showdescription: false
+  tweet: true

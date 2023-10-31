@@ -1,0 +1,11 @@
+name = "Hugo Profile"
+license = "MIT"
+licenselink = ""
+description = "A high performance and mobile first hugo template for personal portfolio and blog."
+homepage = "https://github.com/praj2408"
+tags = ["Responsive","Blog", "Portfolio", "Personal"]
+min_version = "0.68.0"
+
+[author]
+  name = "PRAJWAL KRISHNA"
+  homepage = "https://www.linkedin.com/in/prajwalkrishna/"

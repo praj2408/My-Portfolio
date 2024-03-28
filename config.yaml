@@ -1,4 +1,4 @@
-baseURL: "https://rohanpatankar.netlify.app/"
+baseURL: "https://prajwalkrishna.netlify.app/"
 languageCode: "en-us"
 title: "Prajwal Krishna | Portfolio"
 theme: "./.."
@@ -15,7 +15,7 @@ markup:
 taxonomies:
   tag: "tags"
   category: "categories"
-  
+   
 enableEmoji: true
 params:
   version: 3
@@ -32,46 +32,43 @@ params:
   profile_image: /images/profile.png
   name: "Prajwal Krishna"
   namecolor: ffc107
-  profession: "An aspiring Data Scientist"
+  profession: "Data Scientist | Intern at INeuron"
   github: "https://github.com/praj2408"
   linkedin: "https://www.linkedin.com/in/prajwalkrishna/"
   twitter: "https://twitter.com/mrpark2408"
   gmail: "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=prajwalgbdr03@gmail.com"
-  
+
 
   # Custom social links
   customSocialLinks:
     - fontAwesomeIconName: "fa fa-envelope"
       url: "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=prajwalgbdr03@gmail.com"
-    # - fontAwesomeIconName: "fa fa-envelope"
-    #   url: "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=prajwalgbdr03@gmail.com"
+   
 
   # About
   disable_about: false  
-  descripe_l1_person: "Hii there! Myself **Prajwal Krishna** and As an MLOps specialist,Expert ML/DL Engineer and MLOps Specialist: Leveraging Advanced Technologies for Optimal Results. With a deep passion for Machine Learning (ML), Deep Learning (DL), and MLOps, I am an accomplished engineer skilled in harnessing the power of modern web technologies to build exceptional websites. My expertise extends beyond aesthetics and functionality; I have a comprehensive understanding of ML and DL algorithms, frameworks, and techniques that enable me to create intelligent systems capable of analyzing vast amounts of data and delivering accurate predictions."
+  descripe_l1_person: "Hello, I'm **Prajwal Krishna**, and I specialize in **MLOps, Machine Learning (ML), and Deep Learning (DL).** With a strong focus on leveraging advanced technologies, I excel in optimizing results through the implementation of cutting-edge techniques. My passion lies in harnessing the power of **ML and DL to develop highly effective pipelines and models.** I possess a deep understanding of **ML and DL algorithms, frameworks, and methodologies,** enabling me to create intelligent systems capable of analyzing extensive datasets and providing precise predictions. My expertise extends beyond mere aesthetics and functionality, ensuring the delivery of exceptional outcomes."
   descripe_l2_person: "### Real world capabilities"
-  descripe_l3_person: "I excel in designing and implementing robust ML infrastructure and automation pipelines. I leverage state-of-the-art tools and frameworks such as Docker, Kubernetes,git actions,Huggingface models,replicate models etc to optimize workflows, ensuring scalability and reproducibility of ML processes. My ability to seamlessly integrate ML solutions into existing systems empowers organizations to embrace the full potential of their data, gaining a competitive edge in today's rapidly evolving market.If you are seeking a skilled ML/DL engineer and MLOps expert who can deliver exceptional results, I am confident in my ability to drive your organization's success through innovative technologies and data-driven solutions. Let's collaborate and unlock the power of ML and DL for your business"
+  descripe_l3_person: "I specialize in crafting and executing robust ML infrastructure and automation pipelines, harnessing cutting-edge tools and frameworks like **Docker, Kubernetes, Git Actions, Huggingface models**, and more to streamline workflows, ensuring scalability and reproducibility of ML processes. My proficiency in seamlessly integrating ML solutions into existing systems empowers organizations to fully leverage their data, gaining a competitive advantage in today's dynamic market landscape. If you're in search of a skilled ML/DL engineer and MLOps expert capable of delivering exceptional results, I am confident in my ability to propel your organization's success through innovative technologies and data-driven solutions. Let's collaborate and unlock the potential of ML and DL for your business together."
   descripe_l4_person: "*You can find my works [here](#projects)* "
 
   skills:
-    - name: Python3
+    - name: Python3 | Scikit-Learn | Tensorflow
       percentage: 80
-    - name: Machine Learning
+    - name: Machine Learning and MLOps
       percentage: 80
     - name: Deep Learning
       percentage: 70
     - name: Natural Language Processing
       percentage: 65
     - name: Computer Vision
-      percentage: 70
-    - name: Flask 
+      percentage: 50
+    - name: Flask and Streamlit
       percentage: 65
-    - name: "HTML, CSS, Streamlit, Hugo framework, Gradio"
+    - name: "HTML, CSS, Hugo framework, Gradio"
       percentage: 80
-    - name: SQL
-      percentage: 80
-    - name: MongoDB
-      percentage: 70
+    - name: SQL and Nosql
+      percentage: 65
     - name: ML-Operations
       percentage: 70
     - name: CI/CD pipelines
@@ -84,99 +81,117 @@ params:
   # Experience
   disable_experience: false
   experience:
-    - company: "Tarang.ai(MLx)"
-      role: "Lead MLops engineer"
-      startdate: "April 19 2023"
+
+    - company: "Omdena-Inc"
+      # id: "google-developer"   // use this, when you want to change the id(used for navigation)
+      role: "Data Scientist | Freelance"
+      startdate: "Mar 2024"
       enddate: "Ongoing"
       featuredpoints:
-        - point: "As the Lead MLops Engineer at Tarang.ai(MLx) since April 19, 2023, I have been at the forefront of system development, focusing on building state-of-the-art (SOTA) ML pipelines.My expertise spans a wide range of areas, including working extensively with LLM models such as GPT and BERT models, implementing stable diffusion models, and ensuring seamless deployment of ML systems. , I am dedicated to driving innovation, operational excellence, and tangible business outcomes through ML and DL engineering coupled with MLOps practices."
+        - point: "The project's core objective is to advance sustainable business practices through the creation of an AI-driven tool tailored for automating climate disclosure reporting."
+        - point: "This endeavor is pivotal in facilitating businesses to effectively fulfill regulatory obligations by harnessing the power of AI and large language models (LLMs) to simplify the drafting process of reports."
 
-    - company: "Synapsica-Healthcare"
-      role: "Software Engineer(AI) intern"
-      startdate: "October 04 2022"
-      enddate: "April 18 2023"
-      featuredpoints:
-        - point: "Currently working on system development with MLops to build SOTA ML pipelines.."
-    - company: "Valuecom-Infosolutions-pvt-ltd"
-      role: "Software Developer Intern"
-      startdate: "April 07 2022"
-      enddate: "July 07 2022"
-      featuredpoints:
-        - point:  "Built the automated python script which is used to send a particular data from database and integrated it to a frontend where all operations can be made easily"
-
+   
     - company: "iNeuron"
       # id: "google-developer"   // use this, when you want to change the id(used for navigation)
-      role: "Project Intern"
-      startdate: "Jan 18 2022"
-      enddate: "April 16 2022"
+      role: "Data Scientist | Intern"
+      startdate: "Jan 18 2023"
+      enddate: "Feb 16 2024"
       featuredpoints:
-        - point: "Solve an usecase on Industry level end to end machine learning project"
-        - point: "ML project domain was with respect to Insurance"
-        - point: "Used MLOPS(DVC pipeline) for building and deploying the model."
-        - point: "Built CI/CD pipeline"
-        - point: "Used Flask Api as a backend"
-        - point: "Used Github actions for automatic build and deploy of the model"
-        - point: "Finally hosted to cloud environment i chose heroku platform."
-    - company: "PantechSolutions"
+        - point: "Spearheaded an End-to-end MLOps Predictive Maintenance Project, achieving 98%+ performance across two
+                  classification models."
+        - point: "Leveraged Python libraries (Pandas, Numpy, Scipy, Sklearn) for data manipulation and analysis. Implemented MLflow for 
+                  seamless ML lifecycle management, Utilized Evidently AI for proactive model issue resolution, ensuring optimal 
+                  performance and continuous enhancement."
+        - point: "Expertly deployed models utilizing cutting-edge technologies (Docker, Streamlit, GitHub Actions) through Hugging Face 
+                  spaces integration within CI/CD pipeline."
+        - point: "Ensured data quality and relevance through expert cleaning, transformation, thorough Exploratory Data Analysis, and Model Monitoring."
+
+    
+    - company: "BCG-Forage"
       # id: "google-developer"   // use this, when you want to change the id(used for navigation)
-      role: "Machine Learning Intern(trainee)"
-      startdate: "Sep 2021"
-      enddate: "Oct 2021"
+      role: "Data Science and Analytics | Virtual Experience Program"
+      startdate: "Jan 2023"
+      enddate: "Jun 2023"
+      featuredpoints:
+        - point: "Developed and implemented a churn prediction model utilizing machine learning techniques, effectively identifying at-risk customers and reducing churn rate by 20%"
+        - point: "Leveraged advanced data preprocessing techniques and feature engineering to enhance model accuracy and robustness, resulting in a predictive model with a high level of precision and recall."
+        - point: "Collaborated with cross-functional teams to deploy the churn prediction model into production, integrating it seamlessly into the company's existing systems and workflows, thus enabling proactive customer retention strategies."
+    
+
+    
+    - company: "Pantech-Solutions"
+      # id: "google-developer"   // use this, when you want to change the id(used for navigation)
+      role: "Machine Learning Intern (trainee)"
+      startdate: "Nov 2022"
+      enddate: "Jan 2023"
       featuredpoints:
         - point: "Learn ML & DL from Scratch"
         - point: "Learnt to build neural networks using ANN,CNN,RNN,LSTM etc"
         - point: "Build numerous types of projects by using different ML and DL algorithms"
-    - company: "AzureSkynets_Pvt-Ltd"
-      # id: "AzureSkynets Pvt Ltd" // use this, when you want to change the id(used for navigation)
-      role: "Python Programming Internship(trainee)"
-      startdate: Jan 2020
-      enddate: Feb 2020
+
+    - company: "App-Brewery"
+      # id: "google-developer"   // use this, when you want to change the id(used for navigation)
+      role: "Python trainee"
+      startdate: "Jun 2022"
+      enddate: "Jan 2023"
       featuredpoints:
-        - point: "Learnt python programming from basics to classes,objects,OOPS"
-        - point: "Learnt libraries like numpy,pandas,matplotlib,seaborn,plotly."
-        - point: "Built projects like ML-preprocessor with CLI,Email Slicer and so on"
+        - point: "Learn Python from Scratch."
+        - point: "Learnt to build fuly fledged Websites and Web Apps with python."
+        - point: "Built numerous types of projects, games, apps and automation."
+    
   
   #certifications section
   disable_certification: false
   certification:
-    - Name: ML-DL-Masters-Course
+    - Name: Full-Stack-Data-Science-Masters
       institution: iNeuron.ai
-      startdate: "Jul 2023"
+      startdate: "Apr 2023"
       enddate: "Jul 2024"
+      
       link:
         - weblink: "#"
           certificate: "View Certificate"
+      
     
     - Name: Tensorflow-Developer-Certificate
       institution: Deeplearning.ai
-      startdate: "May 2022"
-      enddate: "June 2022"
+      startdate: "Jul 2023"
+      enddate: "Sep 2023"
       link:
         - weblink: https://coursera.org/share/0f09d9063954f753d2601979bbfc00d6
           certificate: "View Certificate"
 
     - Name: Deep-Learning-Specialization
       institution: DeepLearning.ai
-      startdate: "February 2022"
-      enddate: "March 2022"
+      startdate: "Jul 2023"
+      enddate: "Aug 2023"
       link:
         - weblink: "https://coursera.org/share/da51ea305a8115d36d8fc1288c9b9eed"
           certificate: "View Certificate"
 
     - Name: Machine-Learning-Specialization
       institution: DeepLearning.ai
-      startdate: "January 27 2022"
-      enddate: "February 5 2022"
+      startdate: "Jun 2023"
+      enddate: "Aug 2023"
       link:
         - weblink: "https://coursera.org/share/18096ff70265b4bc393ef2aa125a7325"
           certificate: "View Certificate"
 
     - Name: Mathematics-for-Machine-Learning-and-Data-Science
       institution: DeepLearning.ai
-      startdate: "October 2021"
-      enddate: "November 2021"
+      startdate: "Jun 2023"
+      enddate: "Aug 2023"
       link:
         - weblink: "https://coursera.org/share/da51ea305a8115d36d8fc1288c9b9eed"
+          certificate: "View Certificate"
+
+    - Name: Python-for-Data-Science-and-Machine-Learning-Bootcamp
+      institution:  Pierian Training
+      startdate: "Aug 2023"
+      enddate: "Sep 2023"
+      link:
+        - weblink: "https://www.udemy.com/certificate/UC-b032f97d-4037-42e8-ac2f-c0c549d36386/"
           certificate: "View Certificate"
 
       
@@ -185,7 +200,7 @@ params:
   education:
     - degree: "Full Stack Data Science Masters"
       branch: ""
-      university: "iNeuron Intelligence, Bangalore, India"
+      university: "iNeuron Intelligence"
      
       startedyear: "2023"
       graduation: "2024"
@@ -204,6 +219,27 @@ params:
   # Projects
   disable_projects: false
   projects:
+
+
+    - name: "Predictive Maintenance"
+      img: /images/maintenance.jpg
+      githublink: "https://github.com/praj2408/Predictive-Maintenance"
+      featuredlink: ""
+      description: "Predictive maintenance helps companies minimize downtime, reduce repair costs, and improve operational efficiency. Developing a web application for predictive maintenance can provide users with real-time insights into equipment performance, enabling proactive maintenance, and reducing unplanned downtime."
+
+    - name: "Onsite Health Diagnostics-OHD "
+      img: /images/disease.png
+      githublink: "https://github.com/praj2408/Onsite-Health-Diagnostics"
+      featuredlink: ""
+      description: "Onsite Health Diagnostic (OHD) is the web application that allows users to predict whether the user has been infected with a menacing disease or not. These diseases can be very dangerous to health if they are not treated properly. The main objective of OHD is to help people predict the disease in case of absence of medical professionals, strikes or any related uncertainties."
+    
+    - name: "Jigsaw - Multilingual Toxic Comment Classification "
+      img: /images/jigsaw.jpg
+      githublink: "https://github.com/praj2408/jigsaw-toxic-comment-clf"
+      featuredlink: ""
+      description: "The goal is to find the probability that a comment is toxic. Built a multilingual text classification model to predict the probability that a comment is toxic based on 4,35,775 text 
+                    comments in 7 different languages, using the data provided by Google Jigsaw. Fine-tuned BERT-Multilingual-base and XLMRoBERTa models on the multilingual text."
+
     - name: "Airline Passenger Satisfaction Prediction "
       img: /images/Happy-passenger.jpg
       githublink: "https://github.com/praj2408/Airline-Passenger-Satisfaction-ML-Project"
@@ -211,7 +247,7 @@ params:
       description: "Following the pandemic, the airline industry suffered a massive setback, with ICAO estimating a 371 billion dollar loss in 2020, and a 329 billion dollar loss with reduced seat capacity. As a result, in order to revitalise the industry in the face of the current recession, it is absolutely necessary to understand the customer pain points and improve their satisfaction with the services provided."
     
     
-    - name: "LangChain Powered PDF Chat GUI"
+    - name: "LangChain Powered PDF-Chat Assistant"
       img: /images/langchain.png
       githublink: "https://github.com/praj2408/Langchain-PDF-App-GUI"
       #featuredlink: "https://datasummarizer.herokuapp.com/"
@@ -219,7 +255,7 @@ params:
     
     - name: "Consignment Pricing Prediction MLOPS"
       img: /images/consignment.jpg
-      githublink: "https://github.com/rohanpatankar926/Consignment-Pricing-Using-Mlops-DVC"
+      githublink: "https://github.com/praj2408/Consignment-Pricing-using-MLOps-DVC"
       featuredlink: "https://consignmentpricing.herokuapp.com/"
       description: "Designed and built an end-to-end scalable machine learning pipeline using Mlops in which i have integrated everything on a frontend so that user can get log file,artifacts,model binary file and also save the data to the database which can help for future retraining and also you can perform complete retraining of the model by just one click.The main aim is to build an entire system of a machine learning so that it can be used in realworld scenario."
     
@@ -237,14 +273,16 @@ params:
       githublink: "https://github.com/praj2408/Automated-Machine-Learning-App"
       #featuredlink: ""
       description: "The Automated ML WebApp project is a tool developed using Python, Pandas Profiling, PyCaret, and Streamlit frameworks. It aims to simplify and streamline the process of building machine learning models by automating various tasks involved in data preprocessing, feature engineering, model selection, and downloading the trained models."
+  
+  
   # services
   disable_achievements: false
   
   
   achievements:
     
-    - title: "ML Pipelines"
-      description: "Building Machine Learning Pipelines using ML framework"
+    - title: "Data Science"
+      description: "Analyze complex datasets to extract valuable insights and inform strategic decision-making processes within your organization."
       img: /images/Website-Design-new.jpg
     
     - title: Data Analysis
@@ -263,8 +301,8 @@ params:
 
   # Footer
   socialiconfooter: true
-  recentposts: true
+  recentposts: False
 
   # Blog
-  showdescription: false
+  showdescription: False
   tweet: true

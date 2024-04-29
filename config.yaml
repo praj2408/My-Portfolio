@@ -15,7 +15,7 @@ markup:
 taxonomies:
   tag: "tags"
   category: "categories"
-   
+
 enableEmoji: true
 params:
   version: 3
@@ -25,29 +25,26 @@ params:
   description: "Prajwal's personal portfolio"
 
   # Navbar Menus
-  
 
   # home
   disable_home: false
   profile_image: /images/profile.png
   name: "Prajwal Krishna"
   namecolor: ffc107
-  profession: "Data Scientist | Intern at INeuron"
+  profession: "Aspiring Data Scientist"
   github: "https://github.com/praj2408"
   linkedin: "https://www.linkedin.com/in/prajwalkrishna/"
   twitter: "https://twitter.com/mrpark2408"
   gmail: "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=prajwalgbdr03@gmail.com"
 
-
   # Custom social links
   customSocialLinks:
     - fontAwesomeIconName: "fa fa-envelope"
       url: "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=prajwalgbdr03@gmail.com"
-   
 
   # About
-  disable_about: false  
-  descripe_l1_person: "Hello, I'm **Prajwal Krishna**, and I specialize in **MLOps, Machine Learning (ML), and Deep Learning (DL).** With a strong focus on leveraging advanced technologies, I excel in optimizing results through the implementation of cutting-edge techniques. My passion lies in harnessing the power of **ML and DL to develop highly effective pipelines and models.** I possess a deep understanding of **ML and DL algorithms, frameworks, and methodologies,** enabling me to create intelligent systems capable of analyzing extensive datasets and providing precise predictions. My expertise extends beyond mere aesthetics and functionality, ensuring the delivery of exceptional outcomes."
+  disable_about: false
+  descripe_l1_person: "Hello, I'm **Prajwal Krishna**, a dedicated Data Science enthusiast with a strong foundation in Machine Learning and computer science. Proficient in Python, SQL, and a range of data analysis tools, I have hands-on experience in data cleaning, exploration, and applying machine learning algorithms. With internships at **INeuron, BCG Forage, and PantechSolutions**, I've worked on diverse projects, from web scraping and predictive modeling to AI-driven business solutions. I've also developed end-to-end projects like Predictive Maintenance System and Big Mart Sales Forecasting, showcasing my skills in libraries like Numpy, Pandas, and Sk-Learn. My passion for continuous learning is evident through certifications and participation in advanced programs."
   descripe_l2_person: "### Real world capabilities"
   descripe_l3_person: "I specialize in crafting and executing robust ML infrastructure and automation pipelines, harnessing cutting-edge tools and frameworks like **Docker, Kubernetes, Git Actions, Huggingface models**, and more to streamline workflows, ensuring scalability and reproducibility of ML processes. My proficiency in seamlessly integrating ML solutions into existing systems empowers organizations to fully leverage their data, gaining a competitive advantage in today's dynamic market landscape. If you're in search of a skilled ML/DL engineer and MLOps expert capable of delivering exceptional results, I am confident in my ability to propel your organization's success through innovative technologies and data-driven solutions. Let's collaborate and unlock the potential of ML and DL for your business together."
   descripe_l4_person: "*You can find my works [here](#projects)* "
@@ -81,45 +78,42 @@ params:
   # Experience
   disable_experience: false
   experience:
-
     - company: "Omdena-Inc"
       # id: "google-developer"   // use this, when you want to change the id(used for navigation)
-      role: "Data Scientist | Freelance"
+      role: "Machine Learning Engineer"
       startdate: "Mar 2024"
       enddate: "Ongoing"
       featuredpoints:
         - point: "The project's core objective is to advance sustainable business practices through the creation of an AI-driven tool tailored for automating climate disclosure reporting."
         - point: "This endeavor is pivotal in facilitating businesses to effectively fulfill regulatory obligations by harnessing the power of AI and large language models (LLMs) to simplify the drafting process of reports."
 
-   
     - company: "iNeuron"
       # id: "google-developer"   // use this, when you want to change the id(used for navigation)
       role: "Data Scientist | Intern"
       startdate: "Jan 18 2023"
       enddate: "Feb 16 2024"
       featuredpoints:
-        - point: "Spearheaded an End-to-end MLOps Predictive Maintenance Project, achieving 98%+ performance across two
-                  classification models."
-        - point: "Leveraged Python libraries (Pandas, Numpy, Scipy, Sklearn) for data manipulation and analysis. Implemented MLflow for 
-                  seamless ML lifecycle management, Utilized Evidently AI for proactive model issue resolution, ensuring optimal 
-                  performance and continuous enhancement."
-        - point: "Expertly deployed models utilizing cutting-edge technologies (Docker, Streamlit, GitHub Actions) through Hugging Face 
-                  spaces integration within CI/CD pipeline."
+        - point:
+            "Spearheaded an End-to-end MLOps Predictive Maintenance Project, achieving 98%+ performance across two
+            classification models."
+        - point:
+            "Leveraged python libraries (pandas, numpy, sklearn) for data manipulation and analysis. Implemented Mlflow for tracking 
+            and experimentation, Utilized Evidently AI to test and monitor ML models in production."
+        - point:
+            "Expertly deployed models utilizing Docker for containerization, Streamlit to develop front end application and Github 
+            actions for version control."
         - point: "Ensured data quality and relevance through expert cleaning, transformation, thorough Exploratory Data Analysis, and Model Monitoring."
 
-    
     - company: "BCG-Forage"
       # id: "google-developer"   // use this, when you want to change the id(used for navigation)
-      role: "Data Science and Analytics | Virtual Experience Program"
-      startdate: "Jan 2023"
+      role: "Data Science Internship"
+      startdate: "Apr 2023"
       enddate: "Jun 2023"
       featuredpoints:
-        - point: "Developed and implemented a churn prediction model utilizing machine learning techniques, effectively identifying at-risk customers and reducing churn rate by 20%"
-        - point: "Leveraged advanced data preprocessing techniques and feature engineering to enhance model accuracy and robustness, resulting in a predictive model with a high level of precision and recall."
-        - point: "Collaborated with cross-functional teams to deploy the churn prediction model into production, integrating it seamlessly into the company's existing systems and workflows, thus enabling proactive customer retention strategies."
-    
+        - point: "Executed a customer churn analysis for PowerCo Analytics by demonstrating advanced data analytics skills, identifying essential client data and outlining a strategic approach that enhanced client retention strategies. "
+        - point: "Conducted efficient data analysis using Python, including Pandas and NumPy. Employed data visualization techniques for insightful trend interpretation."
+        - point: "Engineered and optimized a random forest model, achieving an 85% accuracy rate in predicting customer churn, significantly enhancing predictive accuracy."
 
-    
     - company: "Pantech-Solutions"
       # id: "google-developer"   // use this, when you want to change the id(used for navigation)
       role: "Machine Learning Intern (trainee)"
@@ -139,21 +133,19 @@ params:
         - point: "Learn Python from Scratch."
         - point: "Learnt to build fuly fledged Websites and Web Apps with python."
         - point: "Built numerous types of projects, games, apps and automation."
-    
-  
+
   #certifications section
   disable_certification: false
   certification:
     - Name: Full-Stack-Data-Science-Masters
       institution: iNeuron.ai
       startdate: "Apr 2023"
-      enddate: "Jul 2024"
-      
+      enddate: "Ongoing"
+
       link:
         - weblink: "#"
           certificate: "View Certificate"
-      
-    
+
     - Name: Tensorflow-Developer-Certificate
       institution: Deeplearning.ai
       startdate: "Jul 2023"
@@ -187,30 +179,29 @@ params:
           certificate: "View Certificate"
 
     - Name: Python-for-Data-Science-and-Machine-Learning-Bootcamp
-      institution:  Pierian Training
-      startdate: "Aug 2023"
-      enddate: "Sep 2023"
+      institution: Pierian Training
+      startdate: "Aug 2022"
+      enddate: "Nov 2022"
       link:
         - weblink: "https://www.udemy.com/certificate/UC-b032f97d-4037-42e8-ac2f-c0c549d36386/"
           certificate: "View Certificate"
 
-      
   # Education
   disable_education: false
   education:
-    - degree: "Full Stack Data Science Masters"
-      branch: ""
-      university: "iNeuron Intelligence"
-     
+    - degree: "MCA"
+      branch: "(Artificial Intelligence and Data Science)"
+      university: "Visvesvaraya Technological University"
+
       startedyear: "2023"
-      graduation: "2024"
-    
-    - degree: "Bachelor of Science in "
-      branch: "Aviation"
+      graduation: "Present"
+
+    - degree: "Bachelor of Science"
+      branch: "(Aviation)"
       university: "Singhania University"
       startedyear: "2019"
       graduation: "2022"
-    
+
     - degree: "Class XII-"
       university: "SSEA Pre University College"
       startedyear: "2018"
@@ -219,8 +210,6 @@ params:
   # Projects
   disable_projects: false
   projects:
-
-
     - name: "Predictive Maintenance"
       img: /images/maintenance.jpg
       githublink: "https://github.com/praj2408/Predictive-Maintenance"
@@ -232,77 +221,76 @@ params:
       githublink: "https://github.com/praj2408/Onsite-Health-Diagnostics"
       featuredlink: ""
       description: "Onsite Health Diagnostic (OHD) is the web application that allows users to predict whether the user has been infected with a menacing disease or not. These diseases can be very dangerous to health if they are not treated properly. The main objective of OHD is to help people predict the disease in case of absence of medical professionals, strikes or any related uncertainties."
-    
+
     - name: "Jigsaw - Multilingual Toxic Comment Classification "
       img: /images/jigsaw.jpg
       githublink: "https://github.com/praj2408/jigsaw-toxic-comment-clf"
       featuredlink: ""
-      description: "The goal is to find the probability that a comment is toxic. Built a multilingual text classification model to predict the probability that a comment is toxic based on 4,35,775 text 
-                    comments in 7 different languages, using the data provided by Google Jigsaw. Fine-tuned BERT-Multilingual-base and XLMRoBERTa models on the multilingual text."
+      description:
+        "The goal is to find the probability that a comment is toxic. Built a multilingual text classification model to predict the probability that a comment is toxic based on 4,35,775 text
+        comments in 7 different languages, using the data provided by Google Jigsaw. Fine-tuned BERT-Multilingual-base and XLMRoBERTa models on the multilingual text."
 
     - name: "Airline Passenger Satisfaction Prediction "
       img: /images/Happy-passenger.jpg
       githublink: "https://github.com/praj2408/Airline-Passenger-Satisfaction-ML-Project"
       featuredlink: ""
       description: "Following the pandemic, the airline industry suffered a massive setback, with ICAO estimating a 371 billion dollar loss in 2020, and a 329 billion dollar loss with reduced seat capacity. As a result, in order to revitalise the industry in the face of the current recession, it is absolutely necessary to understand the customer pain points and improve their satisfaction with the services provided."
-    
-    
-    - name: "LangChain Powered PDF-Chat Assistant"
+
+    - name: "Realtime Document Chat System"
       img: /images/langchain.png
-      githublink: "https://github.com/praj2408/Langchain-PDF-App-GUI"
+      githublink: "https://github.com/praj2408/Realtime-Document-Chat-System"
       #featuredlink: "https://datasummarizer.herokuapp.com/"
       description: "The project aims to develop a PDF querying system that leverages LangChain, a powerful language processing tool, to extract information from PDF documents. By employing LangChain's advanced natural language understanding capabilities, the system will enable users to perform complex searches and obtain specific data points from PDF files efficiently and accurately."
-    
+
     - name: "Consignment Pricing Prediction MLOPS"
       img: /images/consignment.jpg
       githublink: "https://github.com/praj2408/Consignment-Pricing-using-MLOps-DVC"
       featuredlink: "https://consignmentpricing.herokuapp.com/"
       description: "Designed and built an end-to-end scalable machine learning pipeline using Mlops in which i have integrated everything on a frontend so that user can get log file,artifacts,model binary file and also save the data to the database which can help for future retraining and also you can perform complete retraining of the model by just one click.The main aim is to build an entire system of a machine learning so that it can be used in realworld scenario."
-    
-    
-    
-    - name: "Insurance Premium Prediction using Mlops"
+
+    - name: "Insurance Premium Prediction - Mlops"
       img: /images/insurance.png
       githublink: "https://github.com/praj2408/Insurance-Premium-Prediction-using-MLops-DVC"
       featuredlink: "https://insurance-premium-price-prediction.onrender.com/"
-      description: "The End-goal of this project is to give people an estimate of how much they need based on their individual health situation.So here I have implemented End-End Machine Learning project using MLOPS lifecycle.Built CI/CD pipeline.DVC(Data Version Control) was used here for track ml model.It was regression problem statement and in order to get best accuracy I have used GradientBoostingRegressor to solve the problem which gave r2_score of 85% after tuning parameters."
-    
-    
+      description: "The End-goal of this project is to give people an estimate of how much they need based on their individual health situation.So here I have implemented End-End Machine Learning project using MLOPS lifecycle.Built CI/CD pipeline.DVC(Data Version Control) was used here for track ml model.It was regression problem statement and used GradientBoostingRegressor to solve the problem which gave r2_score of 85% after tuning parameters."
+
     - name: "Automated Machine Learning Application"
       img: /images/automated.jpg
       githublink: "https://github.com/praj2408/Automated-Machine-Learning-App"
       #featuredlink: ""
       description: "The Automated ML WebApp project is a tool developed using Python, Pandas Profiling, PyCaret, and Streamlit frameworks. It aims to simplify and streamline the process of building machine learning models by automating various tasks involved in data preprocessing, feature engineering, model selection, and downloading the trained models."
-  
-  
+
   # services
-  disable_achievements: false
-  
-  
+  disable_achievements: True
+
   achievements:
-    
     - title: "Data Science"
       description: "Analyze complex datasets to extract valuable insights and inform strategic decision-making processes within your organization."
       img: /images/Website-Design-new.jpg
-    
+
     - title: Data Analysis
       description: "With the help of tableu or python analyze the data of the business or client needs which help them to solve business problems."
       img: /images/da.jpg
       # url: https://example.com
-    
+
     - title: Machine Learning & Deep Learning
-      description: "Build various types of ML and DL models according to business or client needs in which it helps to solve complex business issues." 
+      description: "Build various types of ML and DL models according to business or client needs in which it helps to solve complex business issues."
       img: /images/ml.png
-    
+
   # Contact
   disable_contact: false
-  contact_content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you! 
+  contact_content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
   email: "prajwalgbdr03@mail.com"
 
   # Footer
   socialiconfooter: true
-  recentposts: False
+
+  recentPosts: False
 
   # Blog
   showdescription: False
-  tweet: true
+  tweet: False
+
+
+listPages:
+  disableFeaturedImage: True

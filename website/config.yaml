@@ -31,7 +31,7 @@ params:
 
   # home
   disable_home: false
-  profile_image: "/images/profile.png"
+  profile_image: "/images/profile2.png"
   name: "Example name"
   namecolor: ffc107
   profession: "Profession"
@@ -144,7 +144,12 @@ params:
 
   # Footer
   socialiconfooter: true
-  recentposts: true
+  recentposts: True
+
+
+  listPages:
+    disableFeaturedImage: false
+
 
   # Blog
   showdescription: false
